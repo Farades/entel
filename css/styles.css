@@ -256,18 +256,13 @@
 
 #sidebar {
 	width: 250px;
-	height: 1000px;
-	outline: 0x solid black;
-	margin-left: 15px;
-	position: relative;
+	outline: 1px solid red;
+	margin: 30px 0 0 15px;
 }
 
 #auth {
-	position: absolute;
 	width: 170px;
 	height: 122px;
-	top: 30px;
-	left: 0px;
 }
 
 #auth h3 {
@@ -321,7 +316,110 @@
 	border: 1px solid #ccc;
 	font: 12px Arial, sans-serif;
 	width: 60px;
-	height: 20x;
+	height: 20px;
 	margin-top: 7px;
 	color: #747270;
 }
+
+#leftMenu {
+	width: 250px;
+	margin-top: 25px;
+}
+
+#leftMenu li a {
+	text-decoration: none;
+	font: bold 13px Arial, sans-serif;
+	color: #527738;
+	display: block;
+	height: 22px;
+	background-image: url("../img/rubrikatorBG.jpg");
+	background-repeat: no-repeat;
+	border: 1px solid #ccc;
+	padding: 6px 0 0 3px;
+}
+
+#leftMenu li a:hover {
+	text-decoration: underline;
+}
+
+#leftMenu li {
+	margin-top: 10px;
+}
+
+#leftMenu .inLeftMenu {
+	
+}
+
+#leftMenu .inLeftMenu li {
+	margin: 3px 0 0 0;
+}
+
+#leftMenu .inLeftMenu li a {
+	background: none;
+	border: none;
+	font: 14px Arial, sans-serif;
+	color: #999;
+	height: auto;
+	
+	padding: 0 0 0 20px;
+}
+
+#leftMenu .inLeftMenu li a:hover {
+	background-color: #F7F7F7;
+	color: #000;
+	text-decoration: none;
+}
+
+#news {
+	margin-top: 15px;
+	padding: 35px 10px 0 5px;
+	background-image: url("../img/news.png");
+	background-repeat: no-repeat;
+}
+
+#news .date {
+	font: bold 11px Arial, sans-serif;
+	color: #89BD5C;
+}
+
+#news .text {
+	font: 12px Arial, sans-serif;
+	color: #969594;
+	padding-left: 5px;
+}
+
+#news table td {
+	padding-top: 10px;
+}
+
+#news table {
+	margin-bottom: 5px;
+}
+
+#news a {
+	font: bold 12px Arial, sans-serif;
+	color: #89BD5C;
+}
+
+#news a:hover {
+	color: #FF481D;
+}
+
+#glossary {
+	height: 46px;
+	padding: 15px 0 0 70px;
+	background-image: url("../img/glossary.png");
+	background-repeat: no-repeat;
+	margin-top: 15px;
+}
+
+#glossary a{
+	font: bold 14px Arial, sans-serif;
+	color: #89BD5C;
+}
+
+#glossary a:hover {
+	color: #FF481D;
+}
+
+/* End DIV sidebar & Start sidebar */
