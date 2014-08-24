@@ -279,7 +279,7 @@
 
 #sidebar {
 	width: 250px;
-	outline: 1px solid red;
+	outline: 0px solid red;
 	margin: 30px 0 0 15px;
 	float: left;
 }
@@ -450,7 +450,6 @@
 
 #content {
 	width: 710px;
-	height: 1000px;
 	outline: 1px solid red;
 	float: right;
 	margin: 30px 25px 0 0;
@@ -466,4 +465,235 @@
 	color: #fff;
 	height: 40px;
 	margin-left: 5px;
+}
+
+#changeUs {
+	margin-top: 40px;
+	height: 112px;
+}
+
+#sevenBG {
+	float: left;
+	width: 64px;
+	height: 112px;
+	border-right: 2px solid #94cf73;
+	background-image: url("../img/seven.png");
+	background-repeat: no-repeat;
+	background-position: 0 10px;
+}
+
+#changeUs-text {
+	float: left;
+	width: 450px;
+	margin-left: 7px;
+}
+
+#changeUs-text h2 {
+	font: bold 26px MagistralC;
+	color: #6A6866;
+}
+
+#changeUs-text p {
+	margin-top: 13px;
+	font: 13px Arial, sans-serif;
+	color: #969594;
+}
+
+#changeUs-text a {
+	float: right;
+	font: 10px Arial,sans-serif;
+	color: #89BD5C;
+}
+
+#changeUs-text a:hover {
+	color: #FF481D;
+}
+
+#solutions {
+	margin-top: 25px;
+}
+
+#solutions h2 {
+	font: bold 26px MagistralC;
+	color: #6A6866;
+}
+
+#solutions li {
+	width: 152px;
+	height: 185px;
+	float: left;
+	margin-left: 34px;
+}
+
+#solutions li.first {
+	margin-left: 0;
+}
+
+#solutions a {
+	display: block;
+	height: 30px;
+	padding-top: 155px;
+	text-align: center;
+	font: 14px Arial;
+	color: #969594;
+	text-decoration: none
+}
+
+#solutions a:hover {
+	color: #89BD5C;
+	font: bold 14px Arial;
+}
+
+#solutions ul {
+	margin-top: 20px;
+}
+
+#solutions .energy {
+	background-image: url("../img/solutions/energy.jpg");
+	background-repeat: no-repeat;
+}
+
+#solutions .oilGas {
+	background-image: url("../img/solutions/oilGas.jpg");
+	background-repeat: no-repeat;
+}
+
+#solutions .chemisty {
+	background-image: url("../img/solutions/chemisty.jpg");
+	background-repeat: no-repeat;
+}
+
+#solutions .medicina {
+	background-image: url("../img/solutions/medicina.jpg");
+	background-repeat: no-repeat;
+}
+
+#solutions .telecom {
+	background-image: url("../img/solutions/telecom.jpg");
+	background-repeat: no-repeat;
+}
+
+#solutions .proizvodstvo {
+	background-image: url("../img/solutions/proizvodstvo.jpg");
+	background-repeat: no-repeat;
+}
+
+#solutions .transport {
+	background-image: url("../img/solutions/transport.jpg");
+	background-repeat: no-repeat;
+}
+
+#call {
+	margin-top: 40px;
+	height: 112px;
+}
+
+#callBG {
+	float: left;
+	width: 68px;
+	height: 112px;
+	border-right: 2px solid #94cf73;
+	background-image: url("../img/call.png");
+	background-repeat: no-repeat;
+}
+
+#call-text {
+	float: left;
+	width: 450px;
+	margin-left: 7px;
+}
+
+#call-text h2 {
+	font: bold 26px MagistralC;
+	color: #6A6866;
+}
+
+#call-text p {
+	margin-top: 13px;
+	font: 13px Arial, sans-serif;
+	color: #969594;
+}
+
+#call-text a {
+	font: 10px Arial,sans-serif;
+	color: #89BD5C;
+	margin-left: 75px;
+}
+
+#call-text a:hover {
+	color: #FF481D;
+}
+
+#catalog {
+	margin-top: 30px;
+}	
+
+#catalog h2 {
+	font: bold 26px MagistralC;
+	color: #6A6866;
+}
+
+#catalog ul {
+	margin-top: 15px;
+}
+
+#catalog li {
+	float: left;
+	width: 120px;
+	height: 155px;
+	margin-left: 27px;
+	outline: 1px solid red;
+}
+
+#catalog a.text {
+	display: block;
+	height: 30px;
+	margin-top: 5px;
+	text-align: center;
+	font: 13px Arial;
+	color: #969594;
+	text-decoration: none;
+}
+
+#catalog a.bg {
+	display: block;
+	height: 120px;
+	background-repeat: no-repeat;
+}
+
+#catalog li:hover a{
+	color: #89BD5C;
+	font: bold 13px Arial;
+}
+
+#catalog li.first {
+	margin-left: 0;
+}
+
+#catalog li:hover a.bg {
+	background-position: 0 -120px;
+}
+
+#catalog .ups {
+	background-image: url("../img/catalog/ups.png");
+}
+
+#catalog .dgu {
+	background-image: url("../img/catalog/dgu.png");
+}
+
+#catalog .shield {
+	background-image: url("../img/catalog/shield.png");
+}
+
+#catalog .battery {
+	background-image: url("../img/catalog/battery.png");
+}
+
+#catalog .avr {
+	background-image: url("../img/catalog/avr.png");
+}
+
+.clear {
+	clear: both;
 }
