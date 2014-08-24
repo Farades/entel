@@ -161,18 +161,17 @@
 	height: 32px;
 	position: absolute;
 	bottom: -5px;
-	right: 10px;
+	right: 0px;
 }
 
 #menu li {
 	float: left;
-	border: 2px solid #a6a6a8;
-	width: 110px;
+	border: 1px solid #a6a6a8;
+	width: 116px;
 	margin-left: 1px;
-	height: 24px;
-	border-radius: 10px;
+	height: 30px;
+	border-radius: 5px;
 	background-color: #f1f1f3;
-	padding: 6px 6px 0 0;
 	text-align: right;
 	font: 15px Arial, sans-serif;
 	color: #48433D;
@@ -182,50 +181,74 @@
 }
 
 #menu li a {
+	padding: 6px 6px 0 0;
 	display: block;
-	height: 24px;
 	cursor: pointer;
+	height: 24px;
 	font: 15px Arial, sans-serif;
 	color: #48433D;
 	text-decoration: none;
 }
 
-#menu li ul {
+.submenu {
 	display: none;
 	position: absolute;
-	left: -2px;
-	top: 32px;
+	left: -1px;
+	top: 30px;
+	border-radius: 0 0 5px 5px;
+	background-color: #f1f1f3;
+	border: 1px solid #a6a6a8;
+	border-top: none;
+	width: 116px;
 }
 
 #menu li ul li {
-	border: 1px solid #a6a6a8;
-	border-radius: 5px;
-	margin-top: 3px;
+	width: 111px;
+	border: none;
+	border-bottom: 1px solid #a6a6a8;
+	margin: 0;
+	border-radius: 0;
 	text-align: left;
-	padding-left: 5px;
+	height: 22px;
+	padding: 8px 0 0 5px;
 	overflow: hidden;
 }
 
-#menu li ul li:hover {
-	border: 2px solid #6CB35F;
+#menu li:hover a {
+	text-decoration: underline;
+	color: #6CB35F;
 }
 
 #menu li:hover ul li a {
+	font: 13px Arial, sans-serif;
 	text-decoration: none;
 	color: #48433D;
+	padding: 0;
+}
+
+#menu li.isParent:hover  {
+	border-radius: 5px 5px 0 0;
+	border-bottom: none;
 }
 
 #menu li ul li:hover a {
-	color: #6CB35F;
+	color: #fff;
+}
+
+#menu li ul li:hover {
+	background-color: #6CB35F;
+	border-radius: 0;
+	border-bottom: 1px solid #a6a6a8;
+	margin: 0;
 }
 
 #menu li:hover ul {
 	display: block;
 }
 
-#menu li:hover a {
-	text-decoration: underline;
-	color: #6CB35F;
+#menu li ul li:last-child {
+	border-radius: 0 0 5px 5px;
+	border-bottom: 0;
 }
 
 #menu li.company {
@@ -258,6 +281,7 @@
 	width: 250px;
 	outline: 1px solid red;
 	margin: 30px 0 0 15px;
+	float: left;
 }
 
 #auth {
@@ -422,4 +446,24 @@
 	color: #FF481D;
 }
 
-/* End DIV sidebar & Start sidebar */
+/* End DIV sidebar & Start content */
+
+#content {
+	width: 710px;
+	height: 1000px;
+	outline: 1px solid red;
+	float: right;
+	margin: 30px 25px 0 0;
+}
+
+#slider {
+	height: 380px;
+	background-color: #4e4c4d; 
+}
+
+#slider h2 {
+	font: bold 37px MagistralC;
+	color: #fff;
+	height: 40px;
+	margin-left: 5px;
+}
