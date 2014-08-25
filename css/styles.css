@@ -639,18 +639,17 @@
 
 #catalog li {
 	float: left;
-	width: 120px;
-	height: 155px;
-	margin-left: 27px;
-	outline: 1px solid red;
+	width: 140px;
+	height: 160px;
+	margin-left: 2px;
 }
 
 #catalog a.text {
 	display: block;
-	height: 30px;
+	height: 35px;
 	margin-top: 5px;
 	text-align: center;
-	font: 13px Arial;
+	font: 12px Arial;
 	color: #969594;
 	text-decoration: none;
 }
@@ -659,11 +658,12 @@
 	display: block;
 	height: 120px;
 	background-repeat: no-repeat;
+	background-position: 10px 0;
 }
 
 #catalog li:hover a{
 	color: #89BD5C;
-	font: bold 13px Arial;
+	font: bold 12px Arial;
 }
 
 #catalog li.first {
@@ -671,7 +671,7 @@
 }
 
 #catalog li:hover a.bg {
-	background-position: 0 -120px;
+	background-position: 10px -120px;
 }
 
 #catalog .ups {
@@ -692,6 +692,66 @@
 
 #catalog .avr {
 	background-image: url("../img/catalog/avr.png");
+}
+
+#catalog .direction {
+	background-image: url("../img/catalog/direction.png");
+}
+
+#catalog .invertor{
+	background-image: url("../img/catalog/invertor.png");
+}
+
+#catalog .climat{
+	background-image: url("../img/catalog/climat.png");
+}
+
+#catalog .shkafUcheta {
+	background-image: url("../img/catalog/shkafUcheta.png");
+}
+
+#catalog .service {
+	background-image: url("../img/catalog/service.png");
+}
+
+#catalog .shitPost {
+	background-image: url("../img/catalog/shitPost.png");
+}
+
+#catalog .dshe {
+	background-image: url("../img/catalog/dshe.png");
+}
+
+#catalog .vru {
+	background-image: url("../img/catalog/vru.png");
+}
+
+#catalog .epu {
+	background-image: url("../img/catalog/epu.png");
+}
+
+#catalog .panelRaspred {
+	background-image: url("../img/catalog/panelRaspred.png");
+}
+
+#catalog .prug {
+	background-image: url("../img/catalog/prug.png");
+}
+
+#catalog .ride {
+	background-image: url("../img/catalog/ride.png");
+}
+
+#catalog .sne {
+	background-image: url("../img/catalog/sne.png");
+}
+
+#catalog .upsPod {
+	background-image: url("../img/catalog/upsPod.png");
+}
+
+#catalog .zvu {
+	background-image: url("../img/catalog/zvu.png");
 }
 
 .clear {
