@@ -450,7 +450,7 @@
 
 #content {
 	width: 710px;
-	outline: 1px solid red;
+	outline: 0px solid red;
 	float: right;
 	margin: 30px 25px 0 0;
 }
@@ -752,6 +752,47 @@
 
 #catalog .zvu {
 	background-image: url("../img/catalog/zvu.png");
+}
+
+#projects {
+	margin-top: 40px;
+}
+
+#projects-top {
+	height: 50px;
+}
+
+#projects-top-bg {
+	float: left;
+	width: 69px;
+	height: 50px;
+	border-right: 2px solid #94cf73;
+	background-image: url("../img/projects.jpg");
+	background-repeat: no-repeat;
+}
+
+#projects-top-text {
+	float: left;
+	margin-left: 7px;
+}
+
+#projects-top-text h2 {
+	font: bold 26px MagistralC;
+	color: #6A6866;
+	margin-bottom: 3px;
+}
+
+#projects-top-text a {
+	font: 14px Arial,sans-serif;
+	color: #89BD5C;
+}
+
+#projects-top-text a:hover {
+	color: #FF481D;
+}
+
+#projects img {
+	margin-top: 10px;
 }
 
 .clear {
